@@ -8,7 +8,6 @@ import { Rational } from "./Rational";
  * @extends {Complex}
  */
 export class Adapter extends Complex {
-  private instance: Adapter;
   constructor(rational: Rational) {
     // Llamamos al constructor de Complex, pasando el valor de Rational como la parte real y 0 como la parte imaginaria
     super(rational.getNumerator() / rational.getDenominator(), 0);
