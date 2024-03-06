@@ -7,7 +7,7 @@ const rationalNumber = new Rational(1, 2); // Representa el número racional 1/2
 const complexNumber = new Complex(2, 3); // Representa el número complejo 2 + 3i
 
 // Convierte el número racional en un complejo mediante el adaptador
-const adaptedRational = Adapter.getInstance(rationalNumber);
+const adaptedRational = new Adapter(rationalNumber);
 
 // Ahora se pueden realizar operaciones entre el número complejo y el racional (porque es un complejo ahora)
 // Suma
