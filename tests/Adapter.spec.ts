@@ -4,6 +4,7 @@ import { Adapter } from "../src/Adapter";
 import { Complex } from "../src/Complex";
 import { Rational } from "../src/Rational";
 
+// Pruebas para Adapter
 describe("Adapter", function() {
   // Test 1
   it("Debería convertir un Rational en un Complex correctamente", function() {
